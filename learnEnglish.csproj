@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>games.ico</ApplicationIcon>
+    <StartupObject>learnEnglish.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="words.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="games.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="words.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+
+</Project>

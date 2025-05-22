@@ -1,0 +1,7 @@
+D:\jojo learn English\learnEnglish.exe
+D:\jojo learn English\words.json
+D:\jojo learn English\learnEnglish.dll
+D:\jojo learn English\learnEnglish.deps.json
+D:\jojo learn English\learnEnglish.runtimeconfig.json
+D:\jojo learn English\learnEnglish.pdb
+D:\jojo learn English\Newtonsoft.Json.dll
